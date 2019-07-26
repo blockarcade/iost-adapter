@@ -33,7 +33,6 @@ const createRequest = (input, callback) => {
   let handler;
   switch (input.method.toLowerCase()) {
     case 'callabi':
-      method = 'callAbi';
       const tx = contract.callABI(input.contract, input.action, input.args);
       handler = contract.signAndSend(tx);
       break;
