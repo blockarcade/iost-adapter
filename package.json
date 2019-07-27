@@ -1,0 +1,25 @@
+{
+  "name": "cl-iost-adapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bs58": "^4.0.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "iost": "^0.1.17",
+    "microseconds": "^0.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
