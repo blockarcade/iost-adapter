@@ -9,11 +9,11 @@
 * *Optional:* Run tests `npm test`
 
 * Run `createRequest()` in one of the following ways:
-    * call it directly
+    * call it directly (by running `node app.js`).
     * use the `handler()` wrapper for AWS Lambda
     * use the `gcpservice()` wrapper for GCP
 
-* Use one of tle method available [Availabs](#available-methods)
+* Use one of the [available methods.](#available-methods)
     * Set method name in `data.method`, along with method-specific parameters
 
 To create a ZIP file to upload to AWS/GCP, run:
