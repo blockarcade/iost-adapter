@@ -40,7 +40,9 @@ Use callAbi to submit a transaction to a smart contract.
 
 | Variable | Type |   | Description |
 |----------|------|---|-------------|
-| `date`   | String | *Optional* | Date for balance (current date, if skipped) |
+| `contract` | String | The ID of the contract |
+| `action` | String | The name of the method to call |
+| `args` | String | Stringified array of arguments for smart contract |
 
 #### Response
 
