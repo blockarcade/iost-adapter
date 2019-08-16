@@ -39,7 +39,7 @@ Use callAbi to submit a transaction to a smart contract.
 #### Request
 
 | Variable | Type | Description |
-|----------|------|---|-------------|
+|----------|------|-------------|
 | `contract` | String | The ID of the contract |
 | `action` | String | The name of the method to call |
 | `args` | String | Stringified array of arguments for smart contract |
