@@ -31,7 +31,7 @@ contract.setAccount(account);
 
 const createRequest = (input, callback) => {
   let handler;
-  switch (input.method.toLowerCase()) {
+  switch (input.data.method.toLowerCase()) {
     case 'callabi':
       const data = input.data.args || input.data.result;
       const tx = contract.callABI(input.data.contract, input.data.action, data);
