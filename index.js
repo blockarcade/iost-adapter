@@ -46,19 +46,9 @@ const createRequest = (input, callback) => {
       return;
   }
 
-  const handleResponse = response => {
-      if (response.code !== 0) {
-        return callback(500, {
-            jobRunID: input.id,
-            status: "errored",
-            error: response.message,
-            statusCode: 500
-        });
-    }
-
+  const handleResponse = () => {
     return callback(200, {
       jobRunID: input.id,
-      data: response.message,
       statusCode: 200
     });
   };
