@@ -33,7 +33,8 @@ const createRequest = (input, callback) => {
   let handler;
   switch (input.method.toLowerCase()) {
     case 'callabi':
-      const tx = contract.callABI(input.contract, input.action, input.args);
+      const data = input.data.args || input.data.result;
+      const tx = contract.callABI(input.data.contract, input.data.action, data);
       handler = contract.signAndSend(tx);
       break;
     default:
