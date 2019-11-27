@@ -44,6 +44,10 @@ Use callAbi to submit a transaction to a smart contract.
 | `action` | String | The name of the method to call |
 | `args` | String | Stringified array of arguments for smart contract |
 
+## Support
+
+Got questions or feedback? [Stop by our Telegram room!](https://t.me/blockarcade)
+
 ## License
 
 MIT
