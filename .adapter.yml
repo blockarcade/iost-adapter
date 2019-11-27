@@ -1,0 +1,14 @@
+name: IOST External Adapter
+description: An external adapter to submit data to the IOST blockchain
+node_identifier: iost
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: IOST
+    url: https://iost.io
+parameters:
+  - contract
+  - action
+  - args
